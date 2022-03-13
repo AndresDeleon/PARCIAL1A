@@ -3,7 +3,7 @@ using System.ComponentModel.DataAnnotations;
 
 namespace PARCIAL1A.Models
 {
-    public class PlatosporCombo
+    public class PlatosPorCombo
     {
 		[Key]
 		public int PlatosPorComboID { get; set; }

@@ -15,9 +15,9 @@ namespace PARCIAL1A
 
         }
 
-        //public DbSet<CompraElementos> CompraElementos { get; set; }
+        public DbSet<CompraElementos> CompraElementos { get; set; }
         public DbSet<ElementosPorPlato> ElementosPorPlato { get; set; }
-        //public DbSet<PlatosPorCombo> PlatosPorCombo { get; set; }
+        public DbSet<PlatosPorCombo> PlatosPorCombo { get; set; }
         public DbSet<Platos> Platos { get; set; }
         public DbSet<Elementos> Elementos { get; set; }
     }
