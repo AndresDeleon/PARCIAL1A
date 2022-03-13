@@ -49,8 +49,18 @@ namespace PARCIAL1A.Controllers
         public IActionResult Get(int id)
         {
 
-            PlatosPorCombo ppcList = (from ppc in _contexto.PlatosPorCombo 
-                                      where ppc.PlatosPorComboID==id select ppc).FirstOrDefault();
+            var ppcList = (from ppc in _contexto.PlatosPorCombo
+                           join c in _contexto.Platos on ppc.PlatoID equals c.PlatoID
+                           where ppc.PlatosPorComboID==id select new
+                            {
+                               ppc.PlatosPorComboID,
+                               ppc.EmpresaID,
+                               ppc.ComboID,
+                               c.NombrePlato,
+                               ppc.Estado,
+                               ppc.FechaCreacion,
+                               ppc.FechaModificacion
+                            });
 
             if (ppcList!=null)
             {
