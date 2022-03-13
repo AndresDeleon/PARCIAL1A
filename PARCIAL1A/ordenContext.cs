@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using Microsoft.EntityFrameworkCore;
 using System.Linq;
 using System.Threading.Tasks;
+using PARCIAL1A.Models;
 
 namespace PARCIAL1A
 {
@@ -15,7 +16,7 @@ namespace PARCIAL1A
         }
 
         //public DbSet<CompraElementos> CompraElementos { get; set; }
-        //public DbSet<ElementosPorPlato> ElementosPorPlato { get; set; }
+        public DbSet<ElementosPorPlato> ElementosPorPlato { get; set; }
         //public DbSet<PlatosPorCombo> PlatosPorCombo { get; set; }
         //public DbSet<Platos> Platos { get; set; }
         //public DbSet<Elementos> Elementos { get; set; }

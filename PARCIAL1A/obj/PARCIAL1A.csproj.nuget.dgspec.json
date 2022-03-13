@@ -1,20 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Documentos\\Universidad\\DPWA2022\\PARCIAL1A\\PARCIAL1A\\PARCIAL1A.csproj": {}
+    "C:\\Users\\nesto\\OneDrive\\Documentos\\GitHub\\PARCIAL1A\\PARCIAL1A\\PARCIAL1A.csproj": {}
   },
   "projects": {
-    "D:\\Documentos\\Universidad\\DPWA2022\\PARCIAL1A\\PARCIAL1A\\PARCIAL1A.csproj": {
+    "C:\\Users\\nesto\\OneDrive\\Documentos\\GitHub\\PARCIAL1A\\PARCIAL1A\\PARCIAL1A.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Documentos\\Universidad\\DPWA2022\\PARCIAL1A\\PARCIAL1A\\PARCIAL1A.csproj",
+        "projectUniqueName": "C:\\Users\\nesto\\OneDrive\\Documentos\\GitHub\\PARCIAL1A\\PARCIAL1A\\PARCIAL1A.csproj",
         "projectName": "PARCIAL1A",
-        "projectPath": "D:\\Documentos\\Universidad\\DPWA2022\\PARCIAL1A\\PARCIAL1A\\PARCIAL1A.csproj",
-        "packagesPath": "C:\\Users\\aldac\\.nuget\\packages\\",
-        "outputPath": "D:\\Documentos\\Universidad\\DPWA2022\\PARCIAL1A\\PARCIAL1A\\obj\\",
+        "projectPath": "C:\\Users\\nesto\\OneDrive\\Documentos\\GitHub\\PARCIAL1A\\PARCIAL1A\\PARCIAL1A.csproj",
+        "packagesPath": "C:\\Users\\nesto\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\nesto\\OneDrive\\Documentos\\GitHub\\PARCIAL1A\\PARCIAL1A\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\aldac\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\nesto\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -71,7 +74,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.406\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
         }
       }
     }
